@@ -23,3 +23,4 @@ jobs:
         github_token: ${{ secrets.GH_TOKEN}}
         goos: ${{ matrix.goos }}
         goarch: ${{ matrix.goarch }}
+        release_name: gamer
